@@ -2,8 +2,8 @@ import numpy as np
 import pickle
 import streamlit as st
 # loading the saved model 
-loaded_model=pickle.load(open(r'C:\Users\Admin\Desktop\MDPS\trained_model.sav','rb'))
-standard_model=pickle.load(open(r'C:\Users\Admin\Desktop\MDPS\standard.sav','rb'))
+loaded_model=pickle.load(open('trained_model.sav','rb'))
+standard_model=pickle.load(open('standard.sav','rb'))
 #  creating a function for prediction
 def diabetes_prediction(input_data):
 
